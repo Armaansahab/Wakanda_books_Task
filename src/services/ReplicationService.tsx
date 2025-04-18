@@ -4,19 +4,6 @@ import NetworkService from './NetworkService';
 export const API_BASE_URL = 'http://localhost:5000/api';
 export const DATABASE_NAME = 'business_db';
 
-interface BusinessDoc {
-  _id: string;
-  name: string;
-}
-
-interface ArticleDoc {
-  _id: string;
-  name: string;
-  qty: number;
-  selling_price: number;
-  business_id: string;
-}
-
 class ReplicationService {
   isReplicating = false;
   
