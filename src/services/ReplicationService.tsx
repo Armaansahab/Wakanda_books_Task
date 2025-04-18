@@ -126,6 +126,7 @@ class ReplicationService {
           });
           console.log(`Synced article ${article.id} to server`);
         } catch (error) {
+          
           console.log(`Failed to sync article ${article.id}:`, error);
         }
       }
