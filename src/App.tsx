@@ -1,8 +1,8 @@
 // src/App.tsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BusinessListPage from './pages/BusinessListPage';
-import ArticleListPage from './pages/ArticleListPage';
+import BusinessListPage from './pages/BusinessPage';
+import ArticleListPage from './pages/ArticlePage';
 import './App.css';
 
 function App() {

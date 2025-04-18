@@ -5,7 +5,7 @@ import { getDatabase } from '../database';
 import { RxDocument } from 'rxdb';
 import { Article } from '../database/models/articleSchema';
 import NetworkStatus from '../components/NetworkStatus';
-import NetworkService from '../services/NetworkService';
+import NetworkService from '../services/Network';
 
 type ArticleDocument = RxDocument<Article>;
 

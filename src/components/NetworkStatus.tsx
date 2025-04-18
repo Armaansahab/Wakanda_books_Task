@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NetworkService from '../services/NetworkService';
+import NetworkService from '../services/Network';
 
 const NetworkStatus: React.FC = () => {
   const [isOnline, setIsOnline] = useState(NetworkService.isOnline());

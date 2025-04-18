@@ -1,5 +1,5 @@
 import { getDatabase } from '../database';
-import NetworkService from './NetworkService';
+import NetworkService from './Network';
 
 export const API_BASE_URL = 'http://localhost:5000/api';
 export const DATABASE_NAME = 'business_db';

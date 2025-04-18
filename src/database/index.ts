@@ -7,8 +7,8 @@ import { wrappedValidateAjvStorage } from 'rxdb/plugins/validate-ajv';
 import { v4 as uuidv4 } from 'uuid';
 import { businessSchema, Business } from './models/BusinessSchema';
 import { articleSchema, Article } from './models/articleSchema';
-import ReplicationService from '../services/ReplicationService';
-import NetworkService from '../services/NetworkService';
+import ReplicationService from '../services/Replication';
+import NetworkService from '../services/Network';
 
 addRxPlugin(RxDBQueryBuilderPlugin);
 addRxPlugin(RxDBDevModePlugin);
